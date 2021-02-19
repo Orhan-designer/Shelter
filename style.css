@@ -216,7 +216,7 @@ a:active {
     justify-content: space-between;
   }
   .main_logo {
-    flex-basis: 67%;
+    flex-basis: 65%;
     padding-left: 12px;
   }
   .logo_title h1 {
