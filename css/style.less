@@ -3,11 +3,15 @@
     box-sizing: border-box;
 }
 
-body, html, h1, h2, h3, p, ul, li, a {
+body, html, h1, h2, h3, h4, p, ul, li, a {
     margin: 0px;
     padding: 0px;
 }
 
+body {
+    width: 100%;
+    height: 100%;
+}
 /*******/
 /*Main*/
 /*******/
@@ -22,25 +26,29 @@ body, html, h1, h2, h3, p, ul, li, a {
     justify-content: space-around;
     align-items: center;
     padding: 50px 20px;
-    width: 1700px;
+   
 }
 
 .main_logo {
-    div, h1, p {
-        color: white;
-        font-weight: normal;
-    }
-    .logo_title {
+   display: flex;
+   justify-content: space-around;
+}
+
+.logo_title {
+    h1 {
         font-family: Georgia;
         color: #f1cdb3;
-        font-size: 32px;
+        font-size: 30px;
     }
-    .logo_subtitle {
+}
+.logo_subtitle {
+    p {
         font-family: Arial;
         font-size: 13px;
         padding: 5px 0;
     }
 }
+
 
 .main_navigation {
     div {
@@ -71,68 +79,52 @@ body, html, h1, h2, h3, p, ul, li, a {
         font-size: 15px;
     }
     .main_header {
-        padding: 40px 15px;
-        max-width: 1200px;
+        padding: 20px 15px;
     }
-      
     .logo_title {
         font-size: 30px;
     }
     .logo_subtitle {
         font-size: 12px;
-        padding: 5px 0;
     }
-    
-    .main_navigation {
-
     .nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        list-style: none;
     }
     li  {
         font-size: 13px;
-        padding: 0 15px;
     } 
-    }
 }
 
 @media (max-width: 606px) {
     body {
         font-size: 15px;
     }
-    .main_header {
-        padding: 30px 12px;
-        max-width: 1200px;
+    .logo_title {
+        font-size: 20px;
     }
-      
+    .logo_subtitle {
+        font-size: 12px;
+    }
+    li  {
+        font-size: 13px;
+    } 
+}
+
+@media (max-width: 417px) {
+    body {
+        font-size: 15px;
+    }
+    .main_logo {
     .logo_title {
         font-size: 25px;
     }
     .logo_subtitle {
         font-size: 12px;
-        padding: 5px 0;
     }
-    
+    }
     .main_navigation {
-
-    .nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        list-style: none;
-    }
-    li  {
-        font-size: 13px;
-        padding: 0 10px;
-    } 
-    }
-}
-
-@media (max-width: 417px) {
-    .main_navigation {
-        display: none;
+        li  {
+            font-size: 15px;
+        }
     }
 }
 
@@ -375,9 +367,6 @@ body, html, h1, h2, h3, p, ul, li, a {
             font-size: 13px;
         }
     }
-    .contain_item60 {
-        padding: 10px 0 0 180px;
-    }
     .contain_item_photo {
         width: 50vw;
         height: 50vw;
@@ -404,9 +393,6 @@ body, html, h1, h2, h3, p, ul, li, a {
             border-radius: 100px;
             font-size: 14px;
         }
-    }
-    .contain_item60 {
-        padding: 10px 0 0 180px;
     }
     .contain_item_photo {
         width: 50vw;
