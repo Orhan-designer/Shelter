@@ -767,12 +767,12 @@ a:active {
   display: flex;
   justify-content: space-around;
 }
-.heading {
+.pets_heading {
   display: flex;
   align-items: center;
   text-align: center;
 }
-.heading h3 {
+.pets_heading h3 {
   max-width: 400px;
   max-height: 90px;
   font-size: 35px;
@@ -1062,9 +1062,9 @@ a:active {
   .pets {
     padding: 10px 60px;
   }
-  .heading h3 {
+  .pets_heading h3 {
     text-align: center;
-    font-size: 20px !important;
+    font-size: 17px;
   }
   .slider {
     display: flex;
@@ -1080,7 +1080,7 @@ a:active {
     padding: 5px 0;
   }
   .card p {
-    font-size: 12px;
+    font-size: 10px;
   }
   .card img {
     width: 100%;
@@ -1115,12 +1115,12 @@ a:active {
   flex-direction: column;
 }
 
-.heading {
+.help_heading {
   display: flex;
   align-items: center;
 }
 
-.heading h3 {
+.help_heading h3 {
   max-width: 308px;
   font-size: 35px;
   font-family: georgia;
@@ -1267,6 +1267,33 @@ a:active {
   }
   .list p {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    font-size: 15px;
+  }
+  .help {
+    padding: 10px 0;
+  }
+  .help_content {
+    padding: 0 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .help_heading h3 {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .list img {
+    max-width: 100%;
+  }
+  .list p {
+    font-size: 10px;
   }
 }
 
@@ -1517,6 +1544,43 @@ a:active {
   .donation_text p {
     text-align: center;
     font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    font-size: 15px;
+  }
+  .donation {
+    padding: 10px 0;
+  }
+  .donation_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .donation_dog img {
+    width: 100%;
+  }
+  .donation_heading h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .donation_subheading p {
+    text-align: center;
+    font-size: 13px;
+  }
+  .credit_card {
+    width: 195px;
+    padding: 5px;
+  }
+  .credit_card_content p {
+    text-align: left;
+    font-size: 10px;
+  }
+  .donation_text p {
+    text-align: center;
+    font-size: 10px;
   }
 }
 
