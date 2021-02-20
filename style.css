@@ -211,12 +211,12 @@ a:active {
     font-size: 15px;
   }
   .main_header {
-    max-width: 317px;
+    padding-left: 55px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   .main_logo {
-    flex-basis: 63%;
+    flex-basis: 67%;
     padding-left: 12px;
   }
   .logo_title h1 {
@@ -232,12 +232,13 @@ a:active {
     display: inline-block;
     margin: 3px;
     cursor: pointer;
+    padding-left: 30px;
    }
 
   .trigger i {
     display: block;
-    width: 30px;
-    height: 6px;
+    width: 13px;
+    height: 1px;
     margin: 4px auto;
     background: white;
   }
@@ -484,15 +485,8 @@ a:active {
   body {
     font-size: 15px;
   }
-  .main_container {
-    max-width: 317px;
-    display: flex;
-    justify-content: space-between;
-  }
   .contain_item40 {
-    flex-basis: 50%;
-    display: flex;
-    justify-content: flex-start;
+    flex-basis: 80%;
     padding-top: 15px;
   }
   .container_inner {
@@ -500,12 +494,12 @@ a:active {
     align-items: flex-end;
   }
   .contain_item40 h2 {
-    text-align: left;
+    text-align: center;
     line-height: 150%;
-    font-size: 18px;
+    font-size: 20px;
   }
   .contain_item40 p {
-    text-align: left;
+    text-align: center;
     font-size: 10px;
     padding-top: 15px;
   }
@@ -515,6 +509,7 @@ a:active {
   }
   .contain_item_photo {
     width: 100%;
+    margin-left: 70px;
   }
 }
 
