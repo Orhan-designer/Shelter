@@ -719,6 +719,39 @@ a:active {
     font-size: 10px;
   }
 }
+
+@media (max-width: 375px) {
+  body {
+    font-size: 15px;
+  }
+  .about {
+    padding: 10px 0;
+  }
+  .about_content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about_pets {
+    display: flex;
+    justify-content: center;
+  }
+  .pets_item_photo {
+    max-width: 100%;
+  }
+  .about_shelter {
+    flex-basis: 100%;
+  }
+  .about_shelter h3 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .about_shelter p {
+    text-align: center;
+    font-size: 10px;
+    
+  }
+}
 /*******/
 /*pets*/
 /*******/
@@ -1022,7 +1055,49 @@ a:active {
   }
 }
 
-
+@media (max-width: 375px) {
+  body {
+    font-size: 15px;
+  }
+  .pets {
+    padding: 10px 60px;
+  }
+  .heading h3 {
+    text-align: center;
+    font-size: 20px !important;
+  }
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .button_arrow {
+    padding: 0 10px;
+    display: none;
+  }
+  .card {
+    padding: 5px 0;
+  }
+  .card p {
+    font-size: 12px;
+  }
+  .card img {
+    width: 100%;
+  }
+  .card button {
+    width: 130px;
+    height: 38px;
+    font-size: 11px;
+   
+  }
+  .button_primary button {
+    width: 150px;
+    height: 36px;
+    font-size: 12px;
+    display: none;
+  }
+}
 /******/
 /*Help*/
 /******/
