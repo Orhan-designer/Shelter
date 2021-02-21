@@ -1278,7 +1278,6 @@ a:active {
     padding: 10px 0;
   }
   .help_content {
-    padding: 0 90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1601,11 +1600,7 @@ a:active {
 }
 
 .contacts {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  
- 
+  max-width: 278px;
 }
 
 .contacts h4 {
@@ -1648,8 +1643,7 @@ a:active {
 }
 
 .locations {
- 
-  
+  max-width: 302px;
 }
 
 .locations h4 {
@@ -1657,8 +1651,7 @@ a:active {
   color: white;
   font-family: Georgia;
   font-weight: normal;
-  padding: 40px 0;
-  text-align: center;
+  padding: 32px 0;
 }
 
 .boston div {
