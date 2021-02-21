@@ -1284,7 +1284,7 @@ a:active {
     justify-content: center;
   }
   .help_heading h3 {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     text-align: center;
     padding: 15px 0;
@@ -1605,7 +1605,7 @@ a:active {
   align-items: center;
   flex-direction: column;
   
-  background-color: red;
+ 
 }
 
 .contacts h4 {
@@ -1648,7 +1648,7 @@ a:active {
 }
 
 .locations {
-  background-color: blue;
+ 
   
 }
 
@@ -1697,7 +1697,6 @@ a:active {
   width: 100%;
   display: flex;
   align-items: flex-end;
-  background-color: green;
 }
 
 @media (max-width: 1700px) {
@@ -1879,5 +1878,57 @@ a:active {
     padding: 0 10px;
     font-size: 16px;
     color: white;
+  }
+}
+
+
+@media (max-width: 375px) {
+  body {
+    font-size: 15px;
+  }
+  .footer_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .contacts {
+    
+    flex-basis: 70%;
+   
+  }
+  .contacts h4 {
+    text-align: left;
+    font-size: 19px;
+  }
+  .mail p {
+    font-size: 10px;
+    color: white;
+  }
+  .phone p {
+    font-size: 10px;
+    color: white;
+  }
+  .locations {
+    
+    flex-basis: 70%;
+  }
+  .locations h4 {
+    text-align: left;
+    font-size: 19px;
+  }
+  .boston p {
+    font-size: 10px;
+    color: white;
+    text-align: left;
+  }
+  .london p {
+    
+    font-size: 10px;
+    color: white;
+  }
+  .footer_puppy {
+    width: 100%;
+    padding-top: 10px;
   }
 }
