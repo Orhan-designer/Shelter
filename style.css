@@ -253,7 +253,7 @@ a:active {
 
 }
 
-@media (max-width: 825px) {
+/*@media (max-width: 825px) {
   body {
     font-size: 15px;
   }
@@ -298,7 +298,7 @@ a:active {
     display: none;
   }
 
-}
+}*/
 
 /******/
 /*main_content*/
@@ -560,7 +560,7 @@ a:active {
   }
 }
 
-@media (max-width: 825px) {
+/*@media (max-width: 825px) {
   body {
     font-size: 15px;
   }
@@ -592,7 +592,7 @@ a:active {
   .contain_item_photo {
     width: 100%;
   }
-}
+}*/
 
 /*******/
 /*about*/
@@ -834,7 +834,7 @@ a:active {
   }
 }
 
-@media (max-width: 825px) {
+/*@media (max-width: 825px) {
   body {
     font-size: 15px;
   }
@@ -864,7 +864,7 @@ a:active {
     font-size: 10px;
     
   }
-}
+}*/
 
 /*******/
 /*pets*/
@@ -1213,7 +1213,7 @@ a:active {
   }
 }
 
-@media (max-width: 825px) {
+/*@media (max-width: 825px) {
   body {
     font-size: 15px;
   }
@@ -1253,7 +1253,7 @@ a:active {
     height: 36px;
     font-size: 12px;
   }
-}
+}*/
 
 /******/
 /*Help*/
@@ -1453,7 +1453,7 @@ a:active {
   }
 }
 
-@media (max-width: 825px) {
+/*@media (max-width: 825px) {
   body {
     font-size: 15px;
   }
@@ -1472,7 +1472,7 @@ a:active {
   .list p {
     font-size: 11px;
   }
-}
+}*/
 
 /******/
 /*donation*/
@@ -1761,7 +1761,7 @@ a:active {
   }
 }
 
-@media (max-width: 825px) {
+/*@media (max-width: 825px) {
   body {
     font-size: 15px;
   }
@@ -1795,7 +1795,7 @@ a:active {
     text-align: center;
     font-size: 9.3px;
   }
-}
+}*/
 
 /******/
 /*footer*/
@@ -2140,7 +2140,7 @@ a:active {
   }
 }
 
-@media (max-width: 825px) {
+/*@media (max-width: 825px) {
   body {
     font-size: 15px;
   }
@@ -2189,4 +2189,4 @@ a:active {
     align-items: flex-end;
     flex-basis: 30%;
   }
-}
+}*/
