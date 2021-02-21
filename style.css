@@ -253,6 +253,53 @@ a:active {
 
 }
 
+@media (max-width: 825px) {
+  body {
+    font-size: 15px;
+  }
+  .main_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 140px;
+  }
+  .main_logo {
+    
+    padding-left: 12px;
+  }
+  .logo_title h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .logo_subtitle p {
+    font-size: 10px;
+    padding: 5px 0;
+    text-align: center;
+  }
+.trigger {
+    display: inline-block;
+    margin: 3px;
+    cursor: pointer;
+    padding-left: 30px;
+   }
+
+  .trigger i {
+    display: block;
+    width: 13px;
+    height: 1px;
+    margin: 4px auto;
+    background: white;
+  }
+
+  .show {
+    display: block !important;
+  }
+   
+  .menu {
+    display: none;
+  }
+
+}
+
 /******/
 /*main_content*/
 /******/
@@ -513,6 +560,40 @@ a:active {
   }
 }
 
+@media (max-width: 825px) {
+  body {
+    font-size: 15px;
+  }
+  .contain_item40 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 130px;
+    flex-basis: 50%;
+  }
+  .container_inner {
+    display: flex;
+    align-items: flex-end;
+  }
+  .contain_item40 h2 {
+    text-align: center;
+    line-height: 150%;
+    font-size: 20px;
+  }
+  .contain_item40 p {
+    text-align: center;
+    font-size: 9.9px;
+    padding-top: 15px;
+  }
+  .contain_item40 button {
+    width: 130px;
+    font-size: 14px;
+  }
+  .contain_item_photo {
+    width: 100%;
+  }
+}
+
 /*******/
 /*about*/
 /*******/
@@ -752,6 +833,39 @@ a:active {
     
   }
 }
+
+@media (max-width: 825px) {
+  body {
+    font-size: 15px;
+  }
+  .about {
+    padding: 10px 0;
+  }
+  .about_content {
+
+  }
+  .pets_item_photo {
+    max-width: 100%;
+  }
+  .about_shelter {
+    flex-basis: 81%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_shelter h3 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 13px;
+  }
+  .about_shelter p {
+    text-align: center;
+    font-size: 10px;
+    
+  }
+}
+
 /*******/
 /*pets*/
 /*******/
@@ -1098,6 +1212,49 @@ a:active {
     display: none;
   }
 }
+
+@media (max-width: 825px) {
+  body {
+    font-size: 15px;
+  }
+  .pets {
+    padding: 10px 10px;
+  }
+  .pets_heading h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .button_arrow {
+    padding: 0 10px;
+  }
+  .card {
+    padding: 5px 0;
+  }
+  .card p {
+    font-size: 10px;
+  }
+  .card img {
+    width: 100%;
+  }
+  .card button {
+    width: 130px;
+    height: 38px;
+    font-size: 11px;
+   
+  }
+  .button_primary button {
+    width: 150px;
+    height: 36px;
+    font-size: 12px;
+  }
+}
+
 /******/
 /*Help*/
 /******/
@@ -1293,6 +1450,27 @@ a:active {
   }
   .list p {
     font-size: 10px;
+  }
+}
+
+@media (max-width: 825px) {
+  body {
+    font-size: 15px;
+  }
+  .help {
+    padding: 10px 0;
+  }
+  .help_heading h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .list img {
+    max-width: 100%;
+  }
+  .list p {
+    font-size: 11px;
   }
 }
 
@@ -1580,6 +1758,42 @@ a:active {
   .donation_text p {
     text-align: center;
     font-size: 10px;
+  }
+}
+
+@media (max-width: 825px) {
+  body {
+    font-size: 15px;
+  }
+  .donation {
+    padding: 10px 0;
+  }
+  .donation_dog img {
+    width: 100%;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+  }
+  .donation_heading h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .donation_subheading p {
+    text-align: center;
+    font-size: 13px;
+  }
+  .credit_card {
+    width: 195px;
+    padding: 5px;
+  }
+  .credit_card_content p {
+    text-align: left;
+    font-size: 10px;
+  }
+  .donation_text p {
+    text-align: center;
+    font-size: 9.3px;
   }
 }
 
@@ -1923,5 +2137,56 @@ a:active {
   .footer_puppy {
     width: 100%;
     padding-top: 10px;
+  }
+}
+
+@media (max-width: 825px) {
+  body {
+    font-size: 15px;
+  }
+  .footer_content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 30px;
+  }
+  .contacts {
+    flex-basis: 30%;
+  }
+  .contacts h4 {
+    max-width: 150px;
+    font-size: 20px;
+  }
+  .mail p {
+    font-size: 10px;
+    color: white;
+  }
+  .phone p {
+    font-size: 10px;
+    color: white;
+  }
+  .locations {
+    
+    flex-basis: 30%;
+  }
+  .locations h4 {
+    max-width: 160px;
+    font-size: 20px;
+  }
+  .boston p {
+    max-width: 150px;
+    font-size: 10px;
+    color: white;
+    text-align: left;
+  }
+  .london p {
+    font-size: 10px;
+    color: white;
+  }
+  .footer_puppy {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-basis: 30%;
   }
 }
