@@ -377,9 +377,6 @@ a:active {
   body {
     font-size: 15px;
   }
-  .contain_item40 {
-    /*flex-basis: 48%;*/
-  }
   .contain_item40 h2 {
     font-size: 42px;
   }
@@ -400,8 +397,8 @@ a:active {
   body {
     font-size: 15px;
   }
-  .contain_item40 {
-    padding: 0 75px;
+  .main_container {
+    max-width: 1080px;
   }
   .contain_item40 h2 {
     font-size: 40px;
@@ -413,7 +410,6 @@ a:active {
   .contain_item40 button {
     width: 190px;
     height: 45px;
-    border-radius: 100px;
     font-size: 15px;
   }
   .contain_item_photo {
@@ -425,8 +421,13 @@ a:active {
   body {
     font-size: 15px;
   }
+  .main_container {
+    max-width: 970px;
+    display: flex;
+    justify-content: space-around;
+  }
   .contain_item40 {
-    /*flex-basis: 33%;*/
+    padding: 0 40px;
   }
   .contain_item40 h2 {
     font-size: 38px;
@@ -450,8 +451,13 @@ a:active {
   body {
     font-size: 15px;
   }
+  .container_inner {
+    display: flex;
+    align-items: flex-end;
+  }
   .contain_item40 {
-    /*flex-basis: 33%;*/
+    flex-basis: 40%;
+    margin-bottom: 40px;
   }
   .contain_item40 h2 {
     font-size: 30px;
@@ -480,7 +486,7 @@ a:active {
     flex-wrap: wrap;
   }
   .contain_item40 {
-    /*flex-basis: 33%;*/
+    flex-basis: 35%;
   }
   .contain_item40 h2 {
     font-size: 24px;
@@ -661,6 +667,7 @@ a:active {
     font-size: 13px;
   }
 }
+
 @media (max-width: 1447px) {
   body {
     font-size: 15px;
@@ -687,6 +694,7 @@ a:active {
     font-size: 13px;
   }
 }
+
 @media (max-width: 1269px) {
   body {
     font-size: 15px;
@@ -713,6 +721,7 @@ a:active {
     font-size: 12px;
   }
 }
+
 @media (max-width: 894px) {
   body {
     font-size: 15px;
@@ -721,10 +730,9 @@ a:active {
     padding: 20px 0;
   }
   .about_content {
-    flex-basis: 59%;
+    flex-basis: 60%;
   }
   .about_pets {
-    flex-basis: 60%;
     display: flex;
     align-items: center;
   }
@@ -739,6 +747,7 @@ a:active {
     font-size: 12px;
   }
 }
+
 @media (max-width: 699px) {
   body {
     font-size: 15px;
@@ -749,6 +758,7 @@ a:active {
   .about_content {
     display: flex;
     flex-wrap: wrap;
+    
   }
   .about_pets {
     display: flex;
@@ -757,9 +767,10 @@ a:active {
   .pets_item_photo {
     max-width: 100%;
   }
-  .about_shelter {
-    flex-basis: 80%;
+  .about_shelter div {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .about_shelter h3 {
     text-align: center;
@@ -1108,6 +1119,7 @@ a:active {
   }
   .button_arrow {
     padding: 0 50px;
+    display: none;
   }
   .card {
     padding: 5px 0;
@@ -1673,6 +1685,8 @@ a:active {
   }
   .content {
     padding: 0 10px;
+    display: flex;
+    justify-content: center;
   }
   .donation_heading h3 {
     text-align: center;
@@ -1934,6 +1948,9 @@ a:active {
   body {
     font-size: 15px;
   }
+  .footer_content {
+    padding: 0 20px;
+  }
   .contacts h4 {
     font-size: 32px;
   }
@@ -1990,6 +2007,9 @@ a:active {
   body {
     font-size: 15px;
   }
+  .contacts {
+    padding: 0 20px;
+  }
   .contacts h4 {
     font-size: 32px;
   }
@@ -2000,6 +2020,9 @@ a:active {
   .phone p {
     padding: 0 5px;
     font-size: 18px;
+  }
+  .locations {
+    flex-basis: 40%;
   }
   .locations h4 {
     font-size: 32px;
@@ -2019,7 +2042,10 @@ a:active {
     font-size: 15px;
   }
   .footer_content {
-  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
   .contacts h4 {
     text-align: center;
@@ -2047,9 +2073,6 @@ a:active {
   body {
     font-size: 15px;
   }
-  .footer_content {
-    
-  }
   .contacts {
     display: flex;
     justify-content: center;
@@ -2068,9 +2091,6 @@ a:active {
     padding: 0 10px;
     font-size: 16px;
     color: white;
-  }
-  .locations {
-    
   }
   .locations h4 {
     text-align: center;
@@ -2099,10 +2119,8 @@ a:active {
     justify-content: center;
     align-items: center;
   }
-  .contacts {
-    
+  .contacts { 
     flex-basis: 70%;
-   
   }
   .contacts h4 {
     text-align: left;
@@ -2137,6 +2155,10 @@ a:active {
   .footer_puppy {
     width: 100%;
     padding-top: 10px;
+  }
+  .footer_puppy img {
+    width: 100%;
+    
   }
 }
 
